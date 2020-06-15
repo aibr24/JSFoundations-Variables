@@ -1,7 +1,9 @@
-// Define the name here on line 2
+let name = "Ali";
+let age = 27;
+let hobby = "Flying";
 
-// Define the age here on line 4
+let story = `Mr./Mrs. ${name}, in 33 years, you will be ${
+  age + 33
+} years old. By then you'll have decades of ${hobby} practice!`;
 
-// Define the hobby here on line 6
-
-// Print the story here on line 8
+console.log(story);
